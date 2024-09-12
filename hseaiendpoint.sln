@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hseaiendpoint", "hseaiendpoint\hseaiendpoint.csproj", "{4E109BA0-F363-4738-B052-1AF89E0DED67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E109BA0-F363-4738-B052-1AF89E0DED67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E109BA0-F363-4738-B052-1AF89E0DED67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E109BA0-F363-4738-B052-1AF89E0DED67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E109BA0-F363-4738-B052-1AF89E0DED67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A33FD0F6-8D0C-49F2-8661-5D28667B65FA}
+	EndGlobalSection
+EndGlobal

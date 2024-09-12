@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="layout">
+    <textarea class="textarea" placeholder="Your text" id="text"></textarea>
+    <button onclick="send();">Send</button>
+
+    <textarea class="textarea-readonly" id="data" readonly></textarea>
+
+    <div class="position hidden" id="loader">
+        <div class="loader"></div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        height: 32px;
+    }
+
+    .textarea-readonly {
+        margin-top: 8px;
+        height: 128px;
+
+    }
+
+    .textarea {
+        margin-bottom: 8px;
+        height: 64px;
+        padding: 8px;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    .position {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        backdrop-filter: blur(2px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loader {
+        border: 8px solid #f3f3f3;
+        /* Light grey */
+        border-top: 8px solid #3498db;
+        /* Blue */
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
